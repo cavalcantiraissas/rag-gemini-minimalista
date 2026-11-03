@@ -11,7 +11,7 @@ Implementação enxuta de RAG (*Retrieval-Augmented Generation*) em Python: voc�
 
 Todo o pipeline (extração, chunking, embeddings, busca vetorial e geração) cabe em um único arquivo, sem frameworks de orquestração nem banco vetorial, e roda na camada gratuita da API do Gemini.
 
-<!-- Captura de tela da interface: ![Interface web do RAG Minimalista](docs/interface.png) -->
+![Interface web: upload de documentos na barra lateral e conversa com sugestões de perguntas](docs/interface.png)
 
 ---
 
