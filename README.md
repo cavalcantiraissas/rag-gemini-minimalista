@@ -5,11 +5,14 @@
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.50%2B-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![Gemini API](https://img.shields.io/badge/Gemini_API-camada_gratuita-4285F4?logo=googlegemini&logoColor=white)](https://ai.google.dev/)
+[![Abrir no Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://rag-gemini-mini.streamlit.app/)
 [![Licença: MIT](https://img.shields.io/badge/licen%C3%A7a-MIT-green)](LICENSE)
 
 Implementação enxuta de RAG (*Retrieval-Augmented Generation*) em Python: você envia PDFs ou arquivos de texto, faz uma pergunta e o Gemini responde usando **somente** os trechos relevantes desses documentos, citando de onde cada informação veio. Quando a resposta não está nos documentos, ele diz que não encontrou em vez de inventar.
 
 Todo o pipeline (extração, chunking, embeddings, busca vetorial e geração) cabe em um único arquivo, sem frameworks de orquestração nem banco vetorial, e roda na camada gratuita da API do Gemini.
+
+**[Teste online: rag-gemini-mini.streamlit.app](https://rag-gemini-mini.streamlit.app/)**: basta colar sua chave gratuita da API do Gemini na barra lateral, sem instalar nada.
 
 ![Interface web: upload de documentos na barra lateral e conversa com sugestões de perguntas](docs/interface.png)
 
